@@ -3,7 +3,7 @@ body{
     background-color: blueviolet;
 }
 .corpo{
-    background-color: #E5E5E5;;
+    background: #E5E5E5;
     width: 375px;
     margin: auto;
     z-index: 1;
@@ -37,34 +37,7 @@ footer{
     justify-content: center;
     align-items: center;
 }
-.entrar-sala{
-    background: #DCDCDC;
-    border-radius: 2px;
-    width: 375px;
-    height: 40px;
-    margin-top: 26px;
-    display: flex;
-    align-items: center;
-}
-.conversa-normal{
-    background: #FFFFFF;
-    border-radius: 2px;
-    width: 375px;
-    height: 40px;
-    margin-top: 4px;
-    display: flex;
-    align-items: center;
-}
-.conversa-reservada{
-    background: #FFDEDE;
-    border-radius: 2px;
-    width: 375px;
-    height: 40px;
-    margin-top: 4px;
-    display: flex;
-    align-items: center;
-    
-}
+
 span{
     font-weight: bold;
 }
@@ -87,10 +60,22 @@ span{
 .icon{
     font-size: 26px;
 }
-.barra-lateral{
-    width: 259px;
-    height: 667px;
-    z-index: 2;
-    background-color: red;
-    margin-left: 116px;
-}
+
+  
+  .lista {
+    background-color: white;
+    max-width: 100%;
+    margin-top: 26px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 20px;
+    background: #FFFFFF;
+  }
+  
+  li {
+    padding: 10px 16px;
+    margin: 4px;
+  }
+  
